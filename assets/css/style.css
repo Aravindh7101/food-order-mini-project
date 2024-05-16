@@ -1,0 +1,27 @@
+/* body{
+    background-image: url(https://foodtofly.aena.es/medias/HomeFood-Sandwich-1600x700.jpg?context=bWFzdGVyfGltYWdlc3w4Nzk3NDJ8aW1hZ2UvanBlZ3xhR0kxTDJnd09DODRPVFkzTnpNeU5ESTRPRE13TDBodmJXVkdiMjlrTFZOaGJtUjNhV05vTFRFMk1EQjROekF3TG1wd1p3fGZiNzliOTQ0M2Q4NzAwNGI4ZDkyMDQ0MWJhYjk2MGE3OWY2ZDI5NTA1ZmNkMTk0MDRiNThjMTA0MDgzOGUzNGE);
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+} */
+/* .img{
+    height: 200%;
+    width: 100%;
+    opacity: 0.5;
+} */
+.opacity-image{
+    background-image: url(https://foodtofly.aena.es/medias/HomeFood-Sandwich-1600x700.jpg?context=bWFzdGVyfGltYWdlc3w4Nzk3NDJ8aW1hZ2UvanBlZ3xhR0kxTDJnd09DODRPVFkzTnpNeU5ESTRPRE13TDBodmJXVkdiMjlrTFZOaGJtUjNhV05vTFRFMk1EQjROekF3TG1wd1p3fGZiNzliOTQ0M2Q4NzAwNGI4ZDkyMDQ0MWJhYjk2MGE3OWY2ZDI5NTA1ZmNkMTk0MDRiNThjMTA0MDgzOGUzNGE);
+    background-size: cover;
+    background-position: center;
+    min-height: 635px;
+    opacity: 0.5;
+}
+.Form{
+    opacity:1;
+    /* background-color: red;
+    /* color: red; */
+    /* font-weight: bold;  */
+}

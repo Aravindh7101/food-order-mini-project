@@ -1,13 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aruvi Restarunt</title>
+    <!-- tailwind link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- css link -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- css link -->
+    <link rel="stylesheet" href="./assets/css/main.css">
 </head>
+
 <body>
-    <section>
-        <h1>Login page </h1>
+    <section class="relative">
+        <div class="opacity-image">
+        </div>
+        <div class="Form max-w-sm bg-zin mx-auto absolute top-56 left-56 right-56 bg-transparent rounded-xl py-4 border border-gray-300 hover:bg-slate-50">
+            <p class="font-extrabold py-3 text-lg text-center">Sign In For <span class="text-gray-500">Free</span></p>
+            <form action="#">
+                <div class="space-y-3 text-center">
+                    <input type="text" placeholder="Name"
+                        class="bg-white border border-gray-500 rounded-full px-2 outline-none py-1 font-medium"><br>
+                    <input type="email" placeholder="Email"
+                        class="bg-white border border-gray-500 rounded-full px-2 outline-none py-1 font-medium"><br>
+                    <input type="password" placeholder="Password"
+                        class="bg-white border border-gray-500 rounded-full px-2 outline-none py-1 font-medium"><br>
+                    <button class="bg-gray-300 rounded px-2 py-2 w-40  mt-4 font-bold">Sign In</button>
+                </div>
+            </form>
+        </div>
     </section>
 </body>
+
 </html>
